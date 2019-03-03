@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) François Dexemple 2016-2019
+  ~
+  ~ Tous droits réservés. All rights reserved (c) 2016-2019
+  ~
+  ~ Pour toute reproduction, même partielle, merci de me contacter : fdex24@gmail.com
+  -->
+
+<resources>
+    <string name="app_name">Contador de puntos del tarot</string>
+    <string name="titre">Contador de puntos del tarot</string>
+    <string name="title_activity_nouvelle_donne">Nuevo trato</string>
+    <string name="title_activity_see_game">Ver juego</string>
+    <string name="title_activity_new_game">Creando tu parte</string>
+    <string name="title_activity_settings">configuraciones</string>
+    <string name="title_activity_about">A proposito</string>
+    <string name="title_activity_list_players">jugadores</string>
+    <string name="title_activity_affichage">Viendo</string>
+    <string name="title_activity_account">cuenta</string>
+    <string name="title_activity_points">Personalización de los puntos.</string>
+    <string name="title_activity_sign_in">Registrarse</string>
+    <string name="title_activity_rules">Reglas</string>
+
+    <string name="msg_alert_freedom">Detectamos aplicaciones que pueden dañar la aplicación (Pub Blocker, Freedom, LuckyPatcher, …). No modifique esta aplicación, de lo contrario no podemos garantizar el correcto funcionamiento de esta aplicación.</string>
+    <string name="veuillez_installer_via_playStore_les_autres_sont_bloque">Instala esta aplicación a través de PlayStore, otras tiendas han sido bloqueadas por seguridad</string>
+    <string name="veuillez_installer_via_playstore">Instala esta aplicación a través de PlayStore</string>
+    <string name="installation_non_valide">Esta instalación no ha sido autenticada como válida y ha sido bloqueada</string>
+    <string name="navigation_drawer_open">Cajón de navegación abierto.</string>
+    <string name="navigation_drawer_close">Cerrar el cajon de navegacion</string>
+
+
+    <string name="general_title_app">Contador de puntos del tarot</string>
+    <string name="general_failed">fracasado</string>
+    <string name="general_error">error</string>
+    <string name="general_ok">DE ACUERDO</string>
+    <string name="general_retrieving">carga</string>
+    <string name="general_loading">Cargando …</string>
+    <string name="general_players">jugadores</string>
+    <string name="general_games">Fiestas</string>
+    <string name="general_round">ejercido</string>
+    <string name="general_player1">Jugador 1</string>
+    <string name="general_player2">Jugador 2</string>
+    <string name="general_player3">Jugador 3</string>
+    <string name="general_player4">Jugador 4</string>
+    <string name="general_player5">Jugador 5</string>
+    <string name="general_cancel">anular</string>
+    <string name="general_yes">sí</string>
+    <string name="general_no">no</string>
+    <string name="general_no_thanks">No gracias</string>
+    <string name="general_permission_garanted">Permiso concedido</string>
+    <string name="general_permission_denied">Error de permiso rechazado</string>
+    <string name="general_contrats">contratos</string>
+    <string name="general_bouts">Combates</string>
+    <string name="general_petit">Pequeño</string>
+    <string name="general_21">21</string>
+    <string name="general_excuse">Excusa</string>
+    <string name="general_points">Puntos</string>
+    <string name="general_petite">Pequeña</string>
+    <string name="general_prise">toma</string>
+    <string name="general_garde">guardia</string>
+    <string name="general_garde_contre">Guardia contra</string>
+    <string name="general_garde_sans">Guardia sin</string>
+    <string name="general_preneur">tomador</string>
+    <string name="general_win">Gagné</string>
+    <string name="general_loose">perdido</string>
+    <string name="general_continue">seguir</string>
+    <string name="general_delete">eliminar</string>
+    <string name="general_warning">Atención</string>
+
+
+    <string name="activity_main_new_game">Nueva fiesta</string>
+    <string name="activity_main_resume_game">Fiestas</string>
+    <string name="activity_main_about">A proposito</string>
+    <string name="activity_main_players">jugadores</string>
+    <string name="activity_main_rules">normas</string>
+    <string name="activity_main_settings">configuraciones</string>
+    <string name="activity_main_please_wait">Por favor espere</string>
+    <string name="activity_main_in_progress">En curso…</string>
+    <string name="activity_main_update">Actualizamos su aplicación, por favor espere antes de que pueda continuar.</string>
+    <string name="activity_main_0_0">0/0</string>
+
+
+
+    <string name="activity_create_game_title">Creando tu parte</string>
+    <string name="activity_create_game_number_of_players">Numero de jugadores</string>
+    <string name="activity_create_game_button_start_game">Empieza el juego</string>
+    <string name="activity_create_game_choose_number_player">Elige el número de jugadores</string>
+    <string name="activity_create_game_after_clic_here">Luego de ingresar los nombres de los jugadores, haga clic en este botón.</string>
+    <string name="activity_create_game_name_too_long">El nombre de un jugador es demasiado largo.</string>
+    <string name="activity_create_game_missing_names">nombres de jugadores perdidos</string>
+    <string name="activity_create_game_fill_name_player">Por favor ingrese el nombre del jugador</string>
+    <string name="activity_create_game_fill_names_players">Por favor, rellene los nombres de los jugadores</string>
+    <string name="activity_create_game_game_of">Parte de</string>
+    <string name="activity_create_game_why_pub">¿Por qué el PUB?</string>
+    <string name="activity_create_game_why_pub_content">Publicar una aplicación en PlayStore no es gratis. Tener un anuncio en nuestra aplicación nos permite amortizar los costos de publicación de la aplicación. También puede ayudarnos comprando la versión premium en la configuración. \ n \ nBuena parte;)</string>
+    <string name="activity_create_game_error_players_same_name">Los jugadores de error tienen el mismo nombre</string>
+    <string name="activity_create_game_player_cant_have_same_name">Los jugadores no pueden tener el mismo nombre.</string>
+    <string name="activity_create_game_error_adblock">Error de subida de videos, deshabilite su bloqueador de anuncios.</string>
+    <string name="activity_create_game_we_are_creating_your_game">Creamos tu parte</string>
+    <string name="activity_create_game_start_game">Empieza el juego</string>
+
+
+    <string name="payment_module_transaction_not_valid">Error: ¡Transacción inválida!</string>
+    <string name="payment_module_transaction_canceled">Cancelaste la compra</string>
+    <string name="payment_module_transaction_restored">Compras restauradas</string>
+    <string name="payment_module_error_retrieve_data">Recuperación de datos fallidos</string>
+    <string name="payment_module_you_have_already_that">Ya tienes este articulo</string>
+    <string name="payment_module_thanks">Gracias por su compra!</string>
+    <string name="payment_module_billing_not_initialized">La facturación no está inicializada.</string>
+    <string name="payment_module_restored">restaurada</string>
+    <string name="payment_module_not_possible">¡Imposible!</string>
+    <string name="payment_module_the_limit_is">El límite para la versión gratuita es</string>
+    <string name="payment_module_need_premium">. Por favor, compre la versión premium o elimine partes.</string>
+    <string name="payment_module_buy">Comprar</string>
+
+
+    <string name="tutorial_create_game">Vamos a crear nuestra primera parte. Haga clic en este botón.</string>
+    <string name="tutorial_too_much_game">Por favor, retire algunas partes antes de volver a tomar el tutorial.</string>
+    <string name="tutorial_clic_for_add_levee">Haga clic en este botón para agregar un ascensor</string>
+    <string name="tutorial_for_delete_swipe">Para eliminar, deslice el dedo hacia la derecha o hacia la izquierda.</string>
+    <string name="tutorial_you_need_to_clic">Una vez que se completen los campos, valide presionando este botón o el símbolo en la parte superior derecha.</string>
+
+
+    <string name="update_new_version_on_air">Nueva versión disponible</string>
+    <string name="update_need_update">Por favor actualice la aplicación para continuar usándola. \ N</string>
+    <string name="update_update">Poner al día</string>
+    <string name="update">Actualización</string>
+
+
+    <string name="activity_score_failure_update_stats">Error al actualizar las estadísticas</string>
+    <string name="activity_score_table_score">Marcador</string>
+    <string name="activity_score_stats">estadística</string>
+    <string name="activity_score_add_manually_points">Suma manual de puntos.</string>
+    <string name="activity_score_enter_dead_name">Por favor ingrese el nombre del difunto</string>
+    <string name="activity_score_name_player">Nombre del jugador</string>
+    <string name="activity_score_not_possible_not_enought_player">Imposible, no hay suficientes jugadores.</string>
+    <string name="activity_score_choose_dead_this_turn">Elige a los jugadores muertos para este turno.</string>
+    <string name="activity_score_error_you_need_to_choose">Error: debes elegir</string>
+    <string name="activity_score_dead_player">jugadores muertos</string>
+    <string name="activity_score_fields_players">Campos del jugador</string>
+    <string name="activity_score_emptys_put_zero"> estan vacios ¿Quieres poner estos campos en 0?</string>
+    <string name="activity_score_fields_player">Campos del jugador</string>
+    <string name="activity_score_empty_put_zero"> esta vacio ¿Desea establecer este campo en 0?</string>
+    <string name="activity_score_create">Creado</string>
+    <string name="activity_score_device">aparato</string>
+    <string name="activity_score_choose">elegir</string>
+    <string name="activity_score_choose_folder_excel">Elija la carpeta donde exportar la pieza en formato EXCEL.</string>
+    <string name="activity_score_not_possible_already_here">Imposible, este jugador ya está presente en el juego.</string>
+    <string name="activity_score_has_been_added">ha sido añadido al juego</string>
+    <string name="activity_score_not_possible_need_three_player">Imposible se necesita un mínimo de 3 jugadores.</string>
+    <string name="activity_score_choose_player_to_remove">Elige el jugador para eliminar</string>
+    <string name="activity_score_be_careful_not_come_back">Atención esto es definitivo.</string>
+    <string name="activity_score_player_deleted_of_the_game">El jugador ha sido eliminado del juego.</string>
+    <string name="activity_score_no_data">No hay datos disponibles</string>
+    <string name="activity_score_validate">validar</string>
+    <string name="activity_score_modify">Editar</string>
+    <string name="activity_score_add_dead">Añadir una persona muerta</string>
+    <string name="activity_score_remove_dead">Quitar un jugador</string>
+    <string name="activity_score_play_with_dead_more">Juega con una muerte mas</string>
+    <string name="activity_score_play_with_dead_less">Jugando con una persona muerta</string>
+
+
+
+    <string name="activity_about_version">Versión</string>
+    <string name="activity_about_licence">licencia</string>
+    <string name="activity_about_licence_tierce">Licencias de terceros</string>
+    <string name="activity_about_premium">Prima</string>
+    <string name="activity_about_normal_user">Usuario normal</string>
+    <string name="activity_about_librarie">Bibliotèque</string>
+    <string name="activity_about_update_notes">Notas de lanzamiento</string>
+    <string name="activity_about_get_last_data">Recuperando los últimos datos</string>
+    <string name="activity_about_error_get_last_data">Error al mostrar las notas de actualización</string>
+    <string name="activity_about_authors">autores</string>
+    <string name="activity_about_creator_and_maintenor">Creador y mantenedor - Francia</string>
+    <string name="activity_about_creator_of_icon">Creador del icono - Francia</string>
+    <string name="activity_about_developpement_support">Apoyo al desarrollo</string>
+    <string name="activity_about_bugs">Informar errores</string>
+    <string name="activity_about_send_bugs">Para informar de errores o solicitar nuevas funciones, déjanos un comentario en PlayStore.</string>
+    <string name="activity_about_send_us_email">Envíenos un correo electrónico</string>
+
+
+    <string name="activity_listplayer_number_games_win">Número de juegos ganados</string>
+    <string name="activity_listplayer_number_bout_by_prise">Número de propinas por toma</string>
+    <string name="activity_listplayer_enter_new_name">Ingrese el nuevo nombre</string>
+    <string name="activity_listplayer_name">apellido</string>
+    <string name="activity_listplayer_not_possible_already_exist">Imposible, este jugador ya existe.</string>
+    <string name="activity_listplayer_player_deleted">Jugador eliminado</string>
+    <string name="activity_listplayer_actually_in_game_you_need_to_delete_first">El jugador está presente en un juego en progreso, primero elimine los juegos en los que el jugador está presente.</string>
+    <string name="activity_listplayer_delete_player">Eliminar un jugador</string>
+
+
+    <string name="activity_nouvelle_donne_team_with_poignee">Equipo habiendo anunciado un puñado</string>
+    <string name="activity_nouvelle_donne_poignee_annouced">Mango anunciado</string>
+    <string name="activity_nouvelle_donne_team_win_last_row">Equipo que ha ganado el último pliegue.</string>
+    <string name="activity_nouvelle_donne_chelem">golpe</string>
+    <string name="activity_nouvelle_donne_select_player_say_misere">Selecciona el jugador (s) que ha anunciado una miseria.</string>
+    <string name="activity_nouvelle_donne_select_player_who_take">Selecciona el jugador que tomó</string>
+    <string name="activity_nouvelle_donne_action">Acción</string>
+    <string name="activity_nouvelle_donne_select_player_called">Selecciona el jugador llamado</string>
+    <string name="activity_nouvelle_donne_select_contrat_called">Seleccione el contrato anunciado.</string>
+    <string name="activity_nouvelle_donne_att">A</string>
+    <string name="activity_nouvelle_donne_def">Def:</string>
+    <string name="activity_nouvelle_donne_signe_moins">-</string>
+    <string name="activity_nouvelle_donne_signe_plus"> </string>
+    <string name="activity_nouvelle_donne_0">0</string>
+    <string name="activity_nouvelle_donne_91">91</string>
+    <string name="activity_nouvelle_donne_player_called">Jugador llamado:</string>
+    <string name="activity_nouvelle_donne_announcement">Anuncios / Declaraciones:</string>
+    <string name="activity_nouvelle_donne_poignee">manejar</string>
+    <string name="activity_nouvelle_donne_poignee_1">Asa x1</string>
+    <string name="activity_nouvelle_donne_poignee_2">Mango x2</string>
+    <string name="activity_nouvelle_donne_poignee_3">Asa x3</string>
+    <string name="activity_nouvelle_donne_petit_au_bout">Pequeño después</string>
+    <string name="activity_nouvelle_donne_misere">miseria</string>
+
+
+
+    <string name="activity_personnalisation_points_name_new_settings">Ingrese los nombres de su nueva configuración</string>
+    <string name="activity_personnalisation_points_default">culpa</string>
+    <string name="activity_personnalisation_points_be_careful">Atención !</string>
+    <string name="activity_personnalisation_points_sure_reset">¿Estás seguro de que quieres restablecer la configuración de este punto?</string>
+    <string name="activity_personnalisation_points_sure_delete">¿Estás seguro de que quieres eliminar la configuración de este punto?</string>
+    <string name="activity_personnalisation_points_modifications_saved">Tus cambios han sido guardados.</string>
+    <string name="activity_personnalisation_points_points_restored">Los puntos fueron restaurados.</string>
+    <string name="activity_personnalisation_points_name_of_rule">Nombre de la regla</string>
+    <string name="activity_personnalisation_points_activate">activado</string>
+    <string name="activity_personnalisation_points_chelem_announce_and_sucess">Slam exitoso y anunciado</string>
+    <string name="activity_personnalisation_points_chelem_not_announce_and_sucess">Slam inesperado y exitoso</string>
+    <string name="activity_personnalisation_points_chelem_failed">Caída del desplome</string>
+    <string name="activity_personnalisation_points_chelem_by_def">Slam por la defensa</string>
+    <string name="activity_personnalisation_points_coefficent">Coeficiente</string>
+    <string name="activity_personnalisation_points_simple">Simple</string>
+    <string name="activity_personnalisation_points_double">Doble</string>
+    <string name="activity_personnalisation_points_triple">Triple</string>
+    <string name="activity_personnalisation_points_reset">Restablecer</string>
+
+
+    <string name="activity_resume_game_get_back_game">Reanudar un juego</string>
+    <string name="activity_resume_game_game_deleted">Fiesta eliminada</string>
+    <string name="activity_resume_game_pts">pts</string>
+    <string name="activity_resume_game_01_01">01/01</string>
+    <string name="activity_resume_game_load">Cargador</string>
+    <string name="activity_resume_game_1">1</string>
+
+
+    <string name="preferenceScreen">preferenceScreen</string>
+    <string name="activity_settings_general">general</string>
+    <string name="activity_settings_keep_screen_on">Mantener la pantalla en</string>
+    <string name="activity_settings_keep_screen_on_explain">Si esta opción está habilitada, la pantalla no se apagará hasta que salga de la aplicación o apague manualmente su dispositivo.</string>
+    <string name="activity_settings_keep_screen_on_activate">Pantalla de apagado automático habilitada</string>
+    <string name="activity_settings_keep_screen_on_desactivate">Apagar automáticamente la pantalla</string>
+    <string name="activity_settings_score_decreasing">Ver puntajes bajando</string>
+    <string name="activity_settings_score_decreasing_message">Los juegos ahora se mostrarán en la dirección opuesta.</string>
+    <string name="activity_settings_activate_tutorial">Activar el tutorial.</string>
+    <string name="activity_settings_tutorial_activate">Tutorial activado</string>
+    <string name="activity_settings_tutorial_desactivate">Tutorial para discapacitados</string>
+    <string name="activity_settings_size_max_for_name">Tamaño máximo de nombres de jugadores</string>
+    <string name="activity_settings_size_max_for_name_content">Atención, si los jugadores tienen grandes nombres, los últimos pueden desaparecer de la pantalla.</string>
+    <string name="activity_settings_new_value">Nuevo valor</string>
+    <string name="activity_settings_game">juego</string>
+    <string name="activity_settings_personalize_points">Personalizar puntos</string>
+    <string name="activity_settings_authorize_misere">Permitir la miseria</string>
+    <string name="activity_settings_misere_activate">Miseria activada</string>
+    <string name="activity_settings_misere_desactivate">Desdicha deshabilitada</string>
+    <string name="activity_settings_buy_in_app">Achat In-App</string>
+    <string name="activity_settings_premium">Prima</string>
+    <string name="activity_settings_premium_content">Permite la creación ilimitada de juegos y la eliminación de anuncios.</string>
+    <string name="activity_settings_action_settings">Ajustes</string>
+
+    <string-array name="features_list">
+        <item name="1">URL</item>
+        <item name="2">Versión</item>
+        <item name="3">¿La actualización está disponible?</item>
+        <item name="4">Descargas</item>
+        <item name="5">Fecha de última publicación</item>
+        <item name="6">Requisitos</item>
+        <item name="7">Calificación de contenido</item>
+        <item name="8">Clasificación de la aplicación</item>
+        <item name="9">Número de clasificaciones de aplicaciones</item>
+        <item name="10">Registro de cambios</item>
+    </string-array>
+    <string-array name="option_leve">
+        <item name="modify">Editar</item>
+        <item name="delete">eliminar</item>
+    </string-array>
+    <string name="exporter_au_format_excel">Exporter au format Excel</string>
+    <string-array name="option_export">
+        <item name="all">Todas las partes</item>
+        <item name="this">Esta parte</item>
+    </string-array>
+
+    <string name="erreur_fonctionalite_non_disponnible">Se ha producido un error. Su dispositivo no es actualmente compatible con esta función.</string>
+    <string name="upload_crash_report">Enviando el informe de bloqueo …</string>
+</resources>

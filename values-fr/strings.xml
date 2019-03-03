@@ -1,0 +1,500 @@
+<!--
+  ~ Copyright (c) François Dexemple 2016-2019
+  ~
+  ~ Tous droits réservés. All rights reserved (c) 2016-2019
+  ~
+  ~ Pour toute reproduction, même partielle, merci de me contacter : fdex24@gmail.com
+  -->
+
+<resources>
+    <string name="app_name">Compteur de points Tarot</string>
+    <string name="titre">Compteur de points Tarot</string>
+    <string name="title_activity_nouvelle_donne">Nouvelle donne</string>
+    <string name="title_activity_see_game">SeeGame</string>
+    <string name="title_activity_new_game">Création de votre partie</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="title_activity_about">A propos</string>
+    <string name="title_activity_list_players">Joueurs</string>
+    <string name="title_activity_affichage">Affichage</string>
+    <string name="title_activity_account">account</string>
+    <string name="title_activity_points">Personalisation des points</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="title_activity_rules">Rules</string>
+
+    <string name="msg_alert_freedom">Nous avons détecté des applications qui peuvent nuir à l\'application (Bloqueur de Pub, Freedom, LuckyPatcher, …). Veuillez à ne pas modifier cette application, sans cela nous ne pouvons vous garantir le bon fonctionement de celle-ci</string>
+    <string name="veuillez_installer_via_playStore_les_autres_sont_bloque">Veuillez installer cette application via le PlayStore, les autres stores ont été bloqué par mesure de sécurité</string>
+    <string name="veuillez_installer_via_playstore">Veuillez installer cette application via le PlayStore</string>
+    <string name="installation_non_valide">Cette installation n\'a pas été authentifier comme valide et à été bloqué</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Général-->
+    <string name="general_title_app">Compteur de points Tarot</string>
+    <string name="general_failed">Echec</string>
+    <string name="general_error">Erreur</string>
+    <string name="general_ok">OK</string>
+    <string name="general_retrieving">Chargement</string>
+    <string name="general_loading">Chargement …</string>
+    <string name="general_players">Joueurs</string>
+    <string name="general_games">Parties</string>
+    <string name="general_round">Levées</string>
+    <string name="general_player1">Joueur 1</string>
+    <string name="general_player2">Joueur 2</string>
+    <string name="general_player3">Joueur 3</string>
+    <string name="general_player4">Joueur 4</string>
+    <string name="general_player5">Joueur 5</string>
+    <string name="general_cancel">Annuler</string>
+    <string name="general_yes">Oui</string>
+    <string name="general_no">Non</string>
+    <string name="general_no_thanks">Non merci</string>
+    <string name="general_permission_garanted">Permission accordé</string>
+    <string name="general_permission_denied">Erreur permission refusé</string>
+    <string name="general_contrats">Contrats</string>
+    <string name="general_bouts">Bouts</string>
+    <string name="general_petit">Petit</string>
+    <string name="general_21">21</string>
+    <string name="general_excuse">Excuse</string>
+    <string name="general_points">Points</string>
+    <string name="general_petite">Petite</string>
+    <string name="general_prise">Prise</string>
+    <string name="general_garde">Garde</string>
+    <string name="general_garde_contre">Garde contre</string>
+    <string name="general_garde_sans">Garde sans</string>
+    <string name="general_preneur">Preneur</string>
+    <string name="general_win">Gagné</string>
+    <string name="general_loose">Perdu</string>
+    <string name="general_continue">Continuer</string>
+    <string name="general_delete">Supprimer</string>
+    <string name="general_warning">Attention</string>
+
+    <!--Activity Main-->
+    <string name="activity_main_new_game">Nouvelle Partie</string>
+    <string name="activity_main_resume_game">Parties</string>
+    <string name="activity_main_about">A propos</string>
+    <string name="activity_main_players">Joueurs</string>
+    <string name="activity_main_rules">Règles</string>
+    <string name="activity_main_settings">Paramètres</string>
+    <string name="activity_main_please_wait">Veuillez patientez</string>
+    <string name="activity_main_in_progress">En cours…</string>
+    <string name="activity_main_update">Nous mettons a jour votre application, veuillez attendre avant de pouvoir continuer</string>
+    <string name="activity_main_0_0">0/0</string>
+
+
+    <!--Activity Create Game-->
+    <string name="activity_create_game_title">Création de votre partie</string>
+    <string name="activity_create_game_number_of_players">Nombres de joueurs</string>
+    <string name="activity_create_game_button_start_game">Commencer la partie</string>
+    <string name="activity_create_game_choose_number_player">Choissisez le nombre de joueur</string>
+    <string name="activity_create_game_after_clic_here">Après avoir entré les noms des joueurs cliquez sur ce bouton</string>
+    <string name="activity_create_game_name_too_long">Le nom d\'un joueur est trop long</string>
+    <string name="activity_create_game_missing_names">noms de joueurs manquants</string>
+    <string name="activity_create_game_fill_name_player">Veuillez remplir le nom du player </string>
+    <string name="activity_create_game_fill_names_players">Veuillez remplir les noms des joueurs </string>
+    <string name="activity_create_game_game_of">Partie du </string>
+    <string name="activity_create_game_why_pub">Pourquoi de la PUB ?</string>
+    <string name="activity_create_game_why_pub_content">Publiez une application sur le PlayStore n\'est pas gratuit. Avoir de la pub dans notre application nous permet d\'amortir les frais de publication de l\'application. Vous pouvez aussi nous aider en achetant la version premium dans les paramètres. \n\nBonne partie ;)</string>
+    <string name="activity_create_game_error_players_same_name">Erreur des joueurs ont le même nom</string>
+    <string name="activity_create_game_player_cant_have_same_name">Les joueurs ne peuvent pas avoir le même nom</string>
+    <string name="activity_create_game_error_adblock">Erreur de chargments de la vidéo, veuillez désactiver votre bloqueur de pub</string>
+    <string name="activity_create_game_we_are_creating_your_game">Nous créons votre partie</string>
+    <string name="activity_create_game_start_game">Commencer la partie</string>
+
+    <!--Payment Module-->
+    <string name="payment_module_transaction_not_valid">Erreur : transaction non valide !</string>
+    <string name="payment_module_transaction_canceled">Vous avez annulé l\'achat</string>
+    <string name="payment_module_transaction_restored">Achats restauré</string>
+    <string name="payment_module_error_retrieve_data">Echec récupération données</string>
+    <string name="payment_module_you_have_already_that">Vous possédez déjà cet article</string>
+    <string name="payment_module_thanks">Merci de votre achat !</string>
+    <string name="payment_module_billing_not_initialized">Billing not initialized.</string>
+    <string name="payment_module_restored">Restauré</string>
+    <string name="payment_module_not_possible">Impossible !</string>
+    <string name="payment_module_the_limit_is">La limite pour la version gratuite est de </string>
+    <string name="payment_module_need_premium">. Veuillez achetez la version premium ou supprimer des parties.</string>
+    <string name="payment_module_buy">Acheter</string>
+
+    <!--Tutorial-->
+    <string name="tutorial_create_game">Créons notre première partie. Cliquez sur ce bouton.</string>
+    <string name="tutorial_too_much_game">Veuillez supprimer des parties avant de reprendre le tutoriel</string>
+    <string name="tutorial_clic_for_add_levee">Cliquez sur ce bouton pour ajouter une levée</string>
+    <string name="tutorial_for_delete_swipe">Pour supprimer, glisser vers la droite ou la gauche.</string>
+    <string name="tutorial_you_need_to_clic">Une fois les champs remplis, validez en appuyant sur ce bouton ou sur le symbole en haut à droite.</string>
+
+    <!--Update-->
+    <string name="update_new_version_on_air">Nouvelle version disponible</string>
+    <string name="update_need_update">Veuillez mettre à jour l\'application pour pouvoir continuer de l\'utiliser.\n</string>
+    <string name="update_update">Mettre à jour</string>
+    <string name="update">Mise à jour</string>
+
+    <!--Acitivity Score-->
+    <string name="activity_score_failure_update_stats">Echec de la mise à jour des stats</string>
+    <string name="activity_score_table_score">Tableau des scores</string>
+    <string name="activity_score_stats">Statistiques</string>
+    <string name="activity_score_add_manually_points">Ajout manuel de points</string>
+    <string name="activity_score_enter_dead_name">Veuillez saisir le nom du mort</string>
+    <string name="activity_score_name_player">Nom du joueur</string>
+    <string name="activity_score_not_possible_not_enought_player">Impossible, pas assez de joueurs</string>
+    <string name="activity_score_choose_dead_this_turn">Choissisez les joueurs mort pour ce tour</string>
+    <string name="activity_score_error_you_need_to_choose">Erreur : vous devez choisir</string>
+    <string name="activity_score_dead_player">joueurs morts</string>
+    <string name="activity_score_fields_players">Les champs des joueurs</string>
+    <string name="activity_score_emptys_put_zero"> sont vides ! Voulez vous mettre ces champs à 0 ?</string>
+    <string name="activity_score_fields_player">Les champs du joueur</string>
+    <string name="activity_score_empty_put_zero"> est vide ! Voulez vous mettre ce champ à 0 ?</string>
+    <string name="activity_score_create">Créé</string>
+    <string name="activity_score_device">Appareil</string>
+    <string name="activity_score_choose">Choisir</string>
+    <string name="activity_score_choose_folder_excel">Choisissez le dossier où exporter la partie au format EXCEL</string>
+    <string name="activity_score_not_possible_already_here">Impossible, ce joueur est déjà présent dans la partie</string>
+    <string name="activity_score_has_been_added">à été ajouté à la partie</string>
+    <string name="activity_score_not_possible_need_three_player">Impossible il faut un minimun de 3 joueurs</string>
+    <string name="activity_score_choose_player_to_remove">Choissisez le joueur à retirer</string>
+    <string name="activity_score_be_careful_not_come_back">Attention cela est définitif</string>
+    <string name="activity_score_player_deleted_of_the_game">Le joueur à été supprimé de la partie</string>
+    <string name="activity_score_no_data">Aucune donnée disponnible</string>
+    <string name="activity_score_validate">Valider</string>
+    <string name="activity_score_modify">Modifier</string>
+    <string name="activity_score_add_dead">Ajouter un mort</string>
+    <string name="activity_score_remove_dead">Retirer un joueur</string>
+    <string name="activity_score_play_with_dead_more">Jouer avec un mort de plus</string>
+    <string name="activity_score_play_with_dead_less">Jouer avec un mort de moins</string>
+
+
+    <!--Activity About-->
+    <string name="activity_about_version">Version</string>
+    <string name="activity_about_licence">Licence</string>
+    <string name="activity_about_licence_tierce">Licences tierces</string>
+    <string name="activity_about_premium">Premium</string>
+    <string name="activity_about_normal_user">Utilisateur normal</string>
+    <string name="activity_about_librarie">Bibliotèque</string>
+    <string name="activity_about_update_notes">Notes de mise à jour</string>
+    <string name="activity_about_get_last_data">Récupération des dernières données</string>
+    <string name="activity_about_error_get_last_data">Erreur dans l\'affichage des notes de mises à jour</string>
+    <string name="activity_about_authors">Auteurs</string>
+    <string name="activity_about_creator_and_maintenor">Créateur et mainteneur - France</string>
+    <string name="activity_about_creator_of_icon">Créateur de l\'icône - France</string>
+    <string name="activity_about_developpement_support">Support Développement</string>
+    <string name="activity_about_bugs">Signaler des bugs</string>
+    <string name="activity_about_send_bugs">Pour signaler des bugs ou demander de nouvelles fonctionnalités laissez nous un commentaire sur le PlayStore.</string>
+    <string name="activity_about_send_us_email">Envoyez nous un mail</string>
+
+    <!--Activity ListPlayer-->
+    <string name="activity_listplayer_number_games_win">Nombre de parties gagnés</string>
+    <string name="activity_listplayer_number_bout_by_prise">Nombres de bouts par prise</string>
+    <string name="activity_listplayer_enter_new_name">Entrez le nouveau nom</string>
+    <string name="activity_listplayer_name">Nom</string>
+    <string name="activity_listplayer_not_possible_already_exist">Impossible, ce player existe déjà</string>
+    <string name="activity_listplayer_player_deleted">Joueur supprimé</string>
+    <string name="activity_listplayer_actually_in_game_you_need_to_delete_first">Le joueur est présent dans une partie en cours, veuillez d\'abord supprimer la (ou les) partie(s) ou le joueur est présent.</string>
+    <string name="activity_listplayer_delete_player">Supprimer un joueur</string>
+
+    <!--Activity NouvelleDonne-->
+    <string name="activity_nouvelle_donne_team_with_poignee">Equipe ayant annoncé une poignée</string>
+    <string name="activity_nouvelle_donne_poignee_annouced">Poignée annoncé</string>
+    <string name="activity_nouvelle_donne_team_win_last_row">Equipe ayant gagné le dernier pli</string>
+    <string name="activity_nouvelle_donne_chelem">Chelem</string>
+    <string name="activity_nouvelle_donne_select_player_say_misere">Sélectionnez le(s) joueur(s) ayant annoncé une misère</string>
+    <string name="activity_nouvelle_donne_select_player_who_take">Sélectionnez le joueur qui as pris</string>
+    <string name="activity_nouvelle_donne_action">Action</string>
+    <string name="activity_nouvelle_donne_select_player_called">Sélectionnez le joueur appelé</string>
+    <string name="activity_nouvelle_donne_select_contrat_called">Sélectionnez le contrat annoncé</string>
+    <string name="activity_nouvelle_donne_att">Att :</string>
+    <string name="activity_nouvelle_donne_def">Déf :</string>
+    <string name="activity_nouvelle_donne_signe_moins">-</string>
+    <string name="activity_nouvelle_donne_signe_plus">+</string>
+    <string name="activity_nouvelle_donne_0">0</string>
+    <string name="activity_nouvelle_donne_91">91</string>
+    <string name="activity_nouvelle_donne_player_called">Joueur appelé :</string>
+    <string name="activity_nouvelle_donne_announcement">Annonces / Déclarations :</string>
+    <string name="activity_nouvelle_donne_poignee">Poignée</string>
+    <string name="activity_nouvelle_donne_poignee_1">Poignée x1</string>
+    <string name="activity_nouvelle_donne_poignee_2">Poignée x2</string>
+    <string name="activity_nouvelle_donne_poignee_3">Poignée x3</string>
+    <string name="activity_nouvelle_donne_petit_au_bout">Petit au bout</string>
+    <string name="activity_nouvelle_donne_misere">Misère</string>
+
+
+    <!--Activity Personnalisation points-->
+    <string name="activity_personnalisation_points_name_new_settings">Entrez le noms de vos nouveaux paramètres</string>
+    <string name="activity_personnalisation_points_default">Défaut</string>
+    <string name="activity_personnalisation_points_be_careful">Attention !</string>
+    <string name="activity_personnalisation_points_sure_reset">Etes-vous sûr de vouloir réinitialiser cette configuration de points ?</string>
+    <string name="activity_personnalisation_points_sure_delete">Etes-vous sûr de vouloir supprimer cette configuration de points ?</string>
+    <string name="activity_personnalisation_points_modifications_saved">Vos modifications ont été enregistré</string>
+    <string name="activity_personnalisation_points_points_restored">Les points ont été restoré</string>
+    <string name="activity_personnalisation_points_name_of_rule">Nom de la règle</string>
+    <string name="activity_personnalisation_points_activate">Activé</string>
+    <string name="activity_personnalisation_points_chelem_announce_and_sucess">Chelem réussi et annoncé</string>
+    <string name="activity_personnalisation_points_chelem_not_announce_and_sucess">Chelem non annoncé et réussi</string>
+    <string name="activity_personnalisation_points_chelem_failed">Chelem chuté</string>
+    <string name="activity_personnalisation_points_chelem_by_def">Chelem par la défense</string>
+    <string name="activity_personnalisation_points_coefficent">Coefficient</string>
+    <string name="activity_personnalisation_points_simple">Simple</string>
+    <string name="activity_personnalisation_points_double">Double</string>
+    <string name="activity_personnalisation_points_triple">Triple</string>
+    <string name="activity_personnalisation_points_reset">Remettre à zéro</string>
+
+    <!--Activity Reprendre une partie-->
+    <string name="activity_resume_game_get_back_game">Reprendre une partie</string>
+    <string name="activity_resume_game_game_deleted">Partie supprimée</string>
+    <string name="activity_resume_game_pts">pts</string>
+    <string name="activity_resume_game_01_01">01/01</string>
+    <string name="activity_resume_game_load">Charger</string>
+    <string name="activity_resume_game_1">1</string>
+
+    <!--Activity Settings-->
+    <string name="preferenceScreen">preferenceScreen</string>
+    <string name="activity_settings_general">Général</string>
+    <string name="activity_settings_keep_screen_on">Garder l\'écran allumé</string>
+    <string name="activity_settings_keep_screen_on_explain">Si cette option est activée, l\'écran ne s\'éteindra pas tant que vous n\'avez pas quitté l\'application ou éteints manuellement votre appareil</string>
+    <string name="activity_settings_keep_screen_on_activate">Auto-extinction de l\'écran activé</string>
+    <string name="activity_settings_keep_screen_on_desactivate">Auto-extinction de l\'écran désactivé</string>
+    <string name="activity_settings_score_decreasing">Afficher les scores en descendant</string>
+    <string name="activity_settings_score_decreasing_message">Les parties s\'afficheront désormais dans le sens opposé</string>
+    <string name="activity_settings_activate_tutorial">Activer le tutoriel</string>
+    <string name="activity_settings_tutorial_activate">Tutoriel activé</string>
+    <string name="activity_settings_tutorial_desactivate">Tutoriel désactivé</string>
+    <string name="activity_settings_size_max_for_name">Taille maximun des noms des joueurs</string>
+    <string name="activity_settings_size_max_for_name_content">Attention, si les joueurs ont de grands noms, les derniers peuvent disparaître de l\'écran</string>
+    <string name="activity_settings_new_value">Nouvelle valeur</string>
+    <string name="activity_settings_game">Jeu</string>
+    <string name="activity_settings_personalize_points">Personnaliser les points</string>
+    <string name="activity_settings_authorize_misere">Autoriser la misère</string>
+    <string name="activity_settings_misere_activate">Misère activé</string>
+    <string name="activity_settings_misere_desactivate">Misère désactivé</string>
+    <string name="activity_settings_buy_in_app">Achat In-App</string>
+    <string name="activity_settings_premium">Premium</string>
+    <string name="activity_settings_premium_content">Permets la création illimitée de parties et la suppression des pubs</string>
+    <string name="activity_settings_action_settings">Settings</string>
+
+
+    <string name="licence" translatable="false">                                 Copyright 2017-2019 François Dexemple
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at \n \n
+
+http://www.apache.org/licenses/LICENSE-2.0\n \n
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
+
+
+
+
+
+    <string-array name="features_list">
+        <item name="1">URL</item>
+        <item name="2">Version</item>
+        <item name="3">Is Update Available?</item>
+        <item name="4">Downloads</item>
+        <item name="5">Last Published Date</item>
+        <item name="6">OS Requirements</item>
+        <item name="7">Content Rating</item>
+        <item name="8">App Rating</item>
+        <item name="9">App Ratings Count</item>
+        <item name="10">Changelog</item>
+    </string-array>
+    <string-array name="option_leve">
+        <item name="modify">Modifier</item>
+        <item name="delete">Supprimer</item>
+    </string-array>
+    <string name="exporter_au_format_excel">Exporter au format Excel</string>
+    <string-array name="option_export">
+        <item name="all">Toutes les parties</item>
+        <item name="this">Cette partie</item>
+    </string-array>
+
+    <string name="erreur_fonctionalite_non_disponnible">Une erreur s\'est produite. Votre appareil n\'est pour l\'instant pas compatible avec cette fonctionnalité.</string>
+    <string name="upload_crash_report">Envoi du rapport de crash en cours ...</string>
+
+
+    <string name="rules_principe_du_jeu" translatable="false"><![CDATA[<p style="padding-top: 2pt;padding-left: 83pt;text-indent: 0pt;text-align: left;">Le Tarot en tournoi officiel se joue en règle générale à quatre joueurs.</p>
+        <p style="padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;">Le Tarot est à la fois un jeu individuel et un jeu d\'équipe. En effet, au cours de <b>la partie</b>, l\'un des joueurs, appelé <b>le preneur </b>(ou <b>le déclarant) </b>est opposé aux trois autres, <b>les défenseurs, </b>qui constituent
+            une équipe (<b>la défense</b>).</p>
+        <p style="padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;">Mais cette association ne dure que le temps d\'une <b>donne</b>. Elle peut se constituer différemment pour la donne suivante.</p>
+        <p style="padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;">Après avoir pris connaissance de son jeu, un joueur peut s\'engager à atteindre un certain nombre de points en jouant <b>seul </b>contre ses trois adversaires associés.</p>
+        <p style="padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;">Combien de points le preneur seul doit-il réaliser pour gagner son contrat ? Cela dépend uniquement du nombre de bouts qu\'il détient dans ses <b>levées </b>ou <b>plis </b>à la fin de la donne.</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+
+                    <p class="s14" style="padding-top: 2pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">Points à réaliser :</p>
+              <li <p class="s15" style="padding-right: 10pt;text-indent: 0pt;line-height: 13pt;text-align: right;"> Sans bout : il faut 56 points</p>
+              <li <p class="s15" style="padding-right: 10pt;text-indent: 0pt;line-height: 13pt;text-align: right;"> Avec un bout : il faut 51 points</p>
+              <li <p class="s15" style="padding-right: 10pt;text-indent: 0pt;line-height: 13pt;text-align: right;">Avec deux bouts : il faut 41 points</p>
+              <li <p class="s15" style="padding-right: 10pt;text-indent: 0pt;line-height: 13pt;text-align: right;">Avec trois bouts : il faut 36 points</p>
+                <p class="s15" style="display: inline;"></p>
+
+        <p style="padding-top: 2pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;">Ce tableau vous permet de découvrir l\'importance considérable des bouts. Le 21 et l\'excuse ne peuvent changer de camp. Mais attention, l\'excuse ne doit pas être jouée à la dernière levée, sauf en cas de chelem, sinon elle change de
+            camp. Le petit, au contraire, est vulnérable. Le déclarant peut le perdre… ou le prendre à ses adversaires à la suite de la fameuse CHASSE AU PETIT.</p>]]></string>
+    <string name="rules_distribution" translatable="false"> &lt;p class=&quot;s11&quot; style=&quot;padding-top: 11pt;padding-left: 54pt;text-indent: 0pt;text-align: left;&quot;&gt;&lt;a name=&quot;bookmark4&quot;&gt;La distribution&lt;/a&gt;&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 2pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Avant la première distribution, on étale le jeu, face cachée, et chaque joueur tire une carte au hasard. La plus petite carte désigne le &lt;b&gt;donneur. &lt;/b&gt;En cas d\'égalité entre les deux plus faibles, on respecte l\'ordre de priorité entre
+            les couleurs : &lt;b&gt;Pique, Cœur, Carreau, Trèfle&lt;/b&gt;; l\'as de Trèfle est donc la plus petite carte. Les atouts sont prioritaires, mais l\'excuse ne compte pas : il faut retirer dans ce cas une nouvelle carte.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 83pt;text-indent: 0pt;text-align: left;&quot;&gt;Le jeu &lt;b&gt;doit obligatoirement être battu &lt;/b&gt;par le joueur placé en face du donneur.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Puis le voisin de gauche du donneur &lt;b&gt;doit couper en 2&lt;/b&gt;, en prenant ou en laissant obligatoirement plus de 3 cartes, et doit &lt;b&gt;refermer lui-même le tas&lt;/b&gt;.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 83pt;text-indent: 0pt;text-align: left;&quot;&gt;Les joueurs donnent à tour de rôle dans le sens du jeu.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Le donneur distribue les cartes trois par trois, dans le sens contraire des aiguilles d\'une montre. Au cours de la distribution, le donneur constitue carte par carte un talon de 6 cartes appelé &lt;b&gt;le chien. &lt;/b&gt;Il est interdit de mettre la
+            première ou la dernière carte du paquet au chien. Chaque joueur reçoit ainsi &lt;b&gt;18 cartes&lt;/b&gt;. Les 6 cartes du chien doivent être placées au centre du tapis et non vers le donneur.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Une fois la distribution terminée, le donneur doit montrer aux autres joueurs qu’il a bien mis 6 cartes au chien.&lt;/p&gt;
+        &lt;p class=&quot;s12&quot; style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Les joueurs ne peuvent toucher les cartes et relever leur jeu &lt;span class=&quot;p&quot;&gt;que lorsque la distribution est &lt;/span&gt;entièrement terminée &lt;span class=&quot;p&quot;&gt;(une pénalité peut être donnée par l\'arbitre au joueur ayant touché ou ramassé ses cartes avant la fin de la distribution).&lt;/span&gt;&lt;/p&gt;
+        &lt;p
+            style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Toute faute commise au cours de la distribution entraîne une nouvelle distribution par le même donneur. Le fautif n’aura pas le droit de participer aux enchères sur cette même&lt;/p&gt;
+            &lt;p style=&quot;padding-top: 9pt;padding-left: 54pt;text-indent: 0pt;text-align: left;&quot;&gt;donne. En cas de faute du donneur (&lt;b&gt;fausse donne&lt;/b&gt;), chaque joueur rend son jeu sans le regarder; on évite ainsi regrets et mauvaise humeur.&lt;/p&gt;
+            &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Un joueur qui fait une &lt;b&gt;renonce consommée en défense (RC) &lt;/b&gt;ne peut pas annoncer de contrat à la distribution suivante. Dans le cas d’une RC en défense, en cas de chute, le preneur a le choix de faire marquer ou non le score.&lt;/p&gt;
+            </string>
+    <string name="rules_tenu_des_cartes" translatable="false">&lt;p class=&quot;s11&quot;
+                style=&quot;padding-top: 11pt;padding-left: 54pt;text-indent: 0pt;text-align: left;&quot;&gt;&lt;a name=&quot;bookmark5&quot;&gt;La tenue des cartes&lt;/a&gt;&lt;/p&gt;
+            &lt;p style=&quot;padding-top: 2pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Tous les joueurs prennent &lt;b&gt;obligatoirement &lt;/b&gt;connaissance de leur jeu dès la fin de la distribution.&lt;/p&gt;
+            &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Chaque joueur doit tenir ses cartes au-dessus de la table de manière apparente, jusqu’à la dernière carte jouée.&lt;/p&gt;
+            &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Un joueur possédant le &lt;b&gt;petit sec &lt;/b&gt;(&lt;b&gt;c\'est son seul atout et il n\'a pas l\'excuse&lt;/b&gt;) doit obligatoirement l\'annoncer, étaler son jeu et annuler la donne avant les enchères. Le voisin de droite du donneur procède à une
+                nouvelle distribution. Si la découverte d’un petit sec chez un joueur (qui ne l’aurait pas signalé) intervient en cours de jeu, la donne est annulée et on passe au donneur suivant.&lt;/p&gt;
+            </string>
+
+    <string name="rules_encheres" translatable="false">&lt;p class=&quot;s11&quot; style=&quot;padding-top: 11pt;padding-left: 54pt;text-indent: 0pt;text-align: left;&quot;&gt;&lt;a name=&quot;bookmark6&quot;&gt;Les enchères&lt;/a&gt;&lt;/p&gt;
+            &lt;p style=&quot;padding-top: 2pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Il n\'est pas indispensable de classer ses cartes avant la fin des enchères, mais pour un débutant un jeu bien classé permet une évaluation plus précise.&lt;/p&gt;
+            &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Le joueur placé à droite du donneur parle le premier. S\'il dit &quot;&lt;b&gt;je passe&lt;/b&gt;&quot;, la parole passe alors à son voisin de droite et ainsi de suite, jusqu\'au donneur.&lt;/p&gt;
+            &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Si les quatre joueurs passent, le voisin de droite du donneur procède à une nouvelle distribution.&lt;/p&gt;
+            &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Un joueur peut lancer une enchère s\'il estime que son jeu lui permet de jouer seul contre les trois autres joueurs. Il dit alors &quot;&lt;b&gt;prise ou petite&lt;/b&gt;&quot;, &quot; &lt;b&gt;garde&lt;/b&gt;&quot;, &quot;&lt;b&gt;garde sans le chien&lt;/b&gt;&quot; ou &quot;&lt;b&gt;garde contre le chien&lt;/b&gt;&quot;.
+                Les autres joueurs, placés à sa droite peuvent éventuellement couvrir cette première enchère par une enchère supérieure. Chaque joueur ne peut parler qu\'une seule fois.&lt;/p&gt;
+            &lt;p class=&quot;s12&quot; style=&quot;padding-top: 3pt;padding-left: 83pt;text-indent: 0pt;text-align: left;&quot;&gt;Les enchères par ordre croissant sont :&lt;/p&gt;
+    &lt;/li&gt;
+        &lt;li class=&quot;s12&quot; style=&quot;display: inline;&quot;&gt;LA PRISE ou PETITE&lt;span class=&quot;p&quot;&gt;, avec un jeu moyen qui ne laisse espérer qu\'environ 50% de chances de réussite et qui s\'appuie souvent sur l\'espoir de la découverte d\'un très beau chien.&lt;/span&gt;&lt;/p&gt;
+        &lt;li  class=&quot;s12&quot; style=&quot;display: inline;&quot;&gt;LA GARDE &lt;span class=&quot;p&quot;&gt;peut être une surenchère après la prise d\'un adversaire. Mais elle est, le plus souvent, la première enchère, quand le preneur estime ses chances de réussite très supérieures à ses risques d\'échec.&lt;/span&gt;&lt;/p&gt;
+        &lt;li  class=&quot;s12&quot; style=&quot;display: inline;&quot;&gt;LA GARDE SANS LE CHIEN&lt;span class=&quot;p&quot;&gt;, avec un très beau jeu, le preneur estime qu\'il peut réaliser son contrat sans incorporer le chien à son jeu, donc sans effectuer d\'ÉCART. Mais les points du chien lui sont comptés à la fin de la donne et constituent pour lui une certaine réserve de sécurité. Naturellement, aucun joueur ne doit regarder le chien tant que la donne n\'a pas été jouée.&lt;/span&gt;&lt;/p&gt;
+        &lt;li  class=&quot;s12&quot; style=&quot;display: inline;&quot;&gt;LA GARDE CONTRE LE CHIEN&lt;span class=&quot;p&quot;&gt;, avec un jeu exceptionnel, le preneur s\'engage à réaliser son contrat sans l\'aide du chien dont les points seront comptés avec ceux de la défense.&lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Pour un sur contrat (garde Sans et/ou garde Contre) le joueur doit toujours appeler l’arbitre. Il doit présenter à l’arbitre son jeu &lt;b&gt;ouvert et classé&lt;/b&gt;. Dans la mesure du possible, l’arbitre évite de prendre le jeu du preneur. En aucun cas,
+            il n’a le droit de consulter le chien.&lt;/p&gt;
+        &lt;p style=&quot;text-indent: 0pt;text-align: left;&quot;&gt;&lt;br/&gt;&lt;/p&gt;
+        </string>
+
+    <string name="rules_le_chien_et_l_ecart" translatable="false">&lt;p class=&quot;s11&quot; style=&quot;padding-top: 5pt;padding-left: 54pt;text-indent: 0pt;text-align: left;&quot;&gt;&lt;a name=&quot;bookmark7&quot;&gt;Le chien et l\'écart&lt;/a&gt;&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 2pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Sur une prise ou une garde, lorsque les enchères sont terminées, &lt;b&gt;seul le donneur tend le chien au preneur qui retourne alors &lt;/b&gt;les 6 cartes du chien, les classe par couleur, puis les incorpore à son jeu après s’être assuré que les autres
+            joueurs l’aient vu. Il réalise son écart, 6 cartes qui restent secrètes pendant toute la partie et qui seront comptabilisées avec ses levées. Pendant ce temps, les 3 autres joueurs s’assurent qu’ils ont bien 18 cartes.&lt;/p&gt;
+        &lt;p class=&quot;s12&quot; style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;On ne peut écarter ni roi, ni bout&lt;span class=&quot;p&quot;&gt;. On n’écarte des atouts que si cela s\'avère indispensable et en les montrant à la défense.&lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Lorsqu\'il a terminé son écart, le preneur doit montrer aux autres joueurs qu’il a bien mis 6 cartes à l’écart. Il dit ensuite &lt;b&gt;&quot;jeu&quot;&lt;/b&gt;.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Une fois que le preneur a dit &quot;jeu&quot; ou fait action de jeu (présentation poignée, jeu d’une carte …) &lt;b&gt;la donne est commencée &lt;/b&gt;et l\'écart ne peut plus être ni modifié, ni consulté. Néanmoins, dans le cas de la présentation d’une
+            poignée (ou double ou triple), le preneur qui reprend son écart à la place de son jeu (16, 19 ou 21 cartes au lieu de 18) pourra rectifier s’il n’a pas joué sa première carte. S’il a joué sa première carte, la règle du faux écart sera appliquée.&lt;/p&gt;
+        &lt;p
+            style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Sur une garde sans le chien ou une garde contre le chien, les cartes du chien restent faces cachées. Sur une garde sans le chien, elles sont placées devant le preneur et seront comptabilisées avec ses levées. Sur une garde contre le chien, elles
+            sont données face cachée au défenseur qui est face au preneur, et elles seront comptabilisées avec les levées de la défense.&lt;/p&gt;
+            </string>
+
+    <string name="rules_le_chelem" translatable="false">&lt;p class=&quot;s11&quot; style=&quot;padding-top: 11pt;padding-left: 54pt;text-indent: 0pt;text-align: left;&quot;&gt;&lt;a name=&quot;bookmark8&quot;&gt;Le chelem&lt;/a&gt;&lt;/p&gt;
+            &lt;p class=&quot;s12&quot; style=&quot;padding-top: 2pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Réussir le CHELEM, c\'est gagner toutes les levées. &lt;span class=&quot;p&quot;&gt;Lorsqu’un joueur demande un chelem, il doit toujours appeler l’arbitre (l’accord du chelem est limité à une carte perdante).&lt;/span&gt;&lt;/p&gt;
+            &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Le chelem est demandé après l’annonce d’un contrat; les points sont comptés en fonction du contrat demandé et une prime (ou une pénalité) supplémentaire sanctionne la réussite (ou l\'échec) de ce chelem :&lt;/p&gt;
+    &lt;/li&gt;
+        &lt;li class=&quot;s12&quot; style=&quot;display: inline;&quot;&gt;chelem annoncé et réalisé : prime supplémentaire de 400 points.&lt;/p&gt;
+        &lt;li class=&quot;s12&quot; style=&quot;display: inline;&quot;&gt;chelem non annoncé mais réalisé : prime supplémentaire de 200 points.&lt;/p&gt;
+        &lt;li class=&quot;s12&quot; style=&quot;display: inline;&quot;&gt;chelem annoncé mais non réalisé : 200 points sont déduits du total.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 2pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;En cas d\'annonce du chelem, l\'entame revient de droit au joueur qui l’a demandé, quel que soit le donneur.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Pour réaliser un chelem, le preneur doit obligatoirement faire tous les plis. S’il détient l’excuse, il la jouera en dernier. En conséquence, le petit sera considéré au bout s\'il est joué à l\'avant-dernier pli.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Paradoxalement, il arrive que la défense inflige un chelem au déclarant. Dans ce cas, chaque défenseur reçoit, en plus de la marque normale, une prime de 200 points.&lt;/p&gt;
+        </string>
+
+    <string name="rules_la_poignee" translatable="false">&lt;p class=&quot;s11&quot; style=&quot;padding-top: 11pt;padding-left: 54pt;text-indent: 0pt;text-align: left;&quot;&gt;&lt;a name=&quot;bookmark9&quot;&gt;La poignée (10, 13 ou 15 atouts)&lt;/a&gt;&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 2pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Un joueur possédant une &lt;b&gt;poignée &lt;/b&gt;peut, s\'il le désire, &lt;b&gt;l\'annoncer et la présenter &lt;/b&gt;juste avant de jouer sa première carte&lt;b&gt;. &lt;/b&gt;Les atouts doivent être classés dans l\'ordre. &lt;b&gt;L\'excuse peut remplacer un atout manquant &lt;/b&gt;mais
+            &lt;b&gt;la présentation de l’excuse dans la poignée implique que l\'annonceur n\'a pas d\'autre atout. &lt;/b&gt;L’excuse peut être à n’importe quel endroit de la poignée.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;La poignée doit comprendre effectivement DIX, TREIZE ou QUINZE atouts. Lorsqu\'un joueur possède ONZE, DOUZE, QUATORZE, SEIZE atouts, il doit en cacher un ou plus de&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 9pt;padding-left: 54pt;text-indent: 0pt;text-align: left;&quot;&gt;son choix. Lorsque le preneur possède 4 Rois et 15 atouts, l’atout (ou les atouts) écarté(s) doit être remontré avec la triple poignée qui est alors comptabilisée.&lt;/p&gt;
+    &lt;/li&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;A la poignée (10 atouts) correspond une prime de 20 points.&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;A la double poignée (13 atouts) correspond une prime de 30 points.&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;A la triple poignée (15 atouts) correspond une prime de 40 points.&lt;/p&gt;
+        &lt;p class=&quot;s12&quot; style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Ces primes gardent la même valeur quel que soit le contrat. La prime est acquise au camp vainqueur de la donne.&lt;/p&gt;
+        &lt;p class=&quot;s12&quot; style=&quot;padding-top: 3pt;padding-left: 83pt;text-indent: 0pt;text-align: left;&quot;&gt;Exemples :&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;Le camp déclarant présente une double poignée. S\'il gagne, chaque défenseur donne, en plus de la marque normale, une prime de 30. S\'il perd, c\'est lui qui donne cette prime à chaque défenseur, en plus de la marque normale.&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;Un défenseur présente dix atouts. Si le camp déclarant gagne, chaque défenseur lui donne une prime de 20. Si le camp déclarant perd, chaque défenseur reçoit une prime de 20.&lt;/p&gt;
+        </string>
+
+    <string name="rules_le_petit_au_bout" translatable="false">&lt;p class=&quot;s11&quot; style=&quot;padding-top: 11pt;padding-left: 54pt;text-indent: 0pt;text-align: left;&quot;&gt;&lt;a name=&quot;bookmark10&quot;&gt;Le petit au bout&lt;/a&gt;&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 2pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Si le petit fait partie de la dernière levée, on dit qu\'il est au bout. Le camp qui réalise la dernière levée, à condition que cette levée comprenne le petit, bénéficie d\'une prime de 10 points, multipliable selon le contrat, quel que
+            soit le résultat de la donne.&lt;/p&gt;
+        &lt;p class=&quot;s12&quot; style=&quot;padding-top: 3pt;padding-left: 83pt;text-indent: 0pt;text-align: left;&quot;&gt;Exemples :&lt;/p&gt;
+    &lt;/li&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;Le preneur fait une garde sans le chien. Un défenseur lui prend le petit au bout. Le camp déclarant donne une prime de 10 X 4 = 40 à chaque défenseur. Si malgré la perte du petit, le camp déclarant gagne son contrat, la prime est alors déduite
+            de ses gains.&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;Le preneur fait une prise. Un défenseur réalise le dernier pli avec le petit. Le camp déclarant donne une prime de 10 à chaque défenseur. Si le camp déclarant gagne quand même la donne, la prime est déduite de ses gains.&lt;/p&gt;
+        </string>
+
+    <string name="rules_jeu_de_la_carte" translatable="false">&lt;p class=&quot;s11&quot; style=&quot;padding-top: 11pt;padding-left: 54pt;text-indent: 0pt;text-align: left;&quot;&gt;&lt;a name=&quot;bookmark11&quot;&gt;Le jeu de la carte&lt;/a&gt;&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 2pt;padding-left: 83pt;text-indent: 0pt;text-align: left;&quot;&gt;Le déclarant ayant terminé son écart dit &lt;b&gt;&quot;jeu&quot;&lt;/b&gt;.&lt;/p&gt;
+        &lt;p class=&quot;s12&quot; style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;L\'ENTAME &lt;span class=&quot;p&quot;&gt;(la première carte jouée) est effectuée par le joueur placé à droite du donneur. Puis chaque joueur joue à son tour, en tournant dans le sens inverse à celui des aiguilles d\'une montre.&lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Le joueur ayant réalisé la première levée entame la levée suivante. Et ainsi de suite. Le jeu se déroule alors selon les règles suivantes :&lt;/p&gt;
+    &lt;/li&gt;
+       &lt;li &lt;p class=&quot;s12&quot; style=&quot;display: inline;&quot;&gt;A l\'atout, &lt;span class=&quot;p&quot;&gt;on est obligé de monter sur le plus fort atout déjà en jeu, même s\'il appartient à un partenaire. Un joueur ne possédant pas d\'atout supérieur au plus élevé déjà en jeu, joue un atout de son choix, en général le plus petit. On dit qu\'il &quot;pisse&quot;.&lt;/span&gt;&lt;/p&gt;
+       &lt;li &lt;p class=&quot;s12&quot; style=&quot;display: inline;&quot;&gt;A la couleur&lt;span class=&quot;p&quot;&gt;, on est obligé de fournir la couleur demandée, mais pas de monter.&lt;/span&gt;&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;On est obligé de &lt;b&gt;couper &lt;/b&gt;(c\'est-à-dire de jouer atout) si l\'on ne possède pas de carte de la couleur demandée. Si le joueur précédent a coupé lui aussi, on est obligé de &lt;b&gt;surcouper &lt;/b&gt;(de couper avec un atout supérieur) ou de
+            &lt;b&gt;sous-couper &lt;/b&gt;(pisser) si l\'on ne peut pas surcouper.&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;On peut considérer qu’une carte est sortie du jeu quand elle n’est plus en contact avec les autres.&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;On &lt;b&gt;défausse &lt;/b&gt;(on joue une carte de son choix) si l\'on ne possède ni carte de la couleur demandée, ni d\'atout.&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;Si la première carte d\'une levée &lt;b&gt;est l\'excuse&lt;/b&gt;, c\'est la carte suivante qui détermine la couleur jouée.&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;L\'&lt;b&gt;excuse &lt;/b&gt;ne permet pas de réaliser une levée (sauf en cas de chelem), mais elle reste la propriété du camp qui la détient. Celui qui l\'a jouée récupère l\'excuse et l\'incorpore dans le tas des plis qu\'il a déjà fait.
+            Il y prend une carte sans valeur (basse carte en couleur ou atout) qu\'il donne au camp qui a remporté le pli pour remplacer l\'excuse. Si le camp du joueur n\'a pas encore remporté de pli, il met l\'excuse en évidence et donnera
+            une carte à l\'autre camp dès qu\'il en aura l\'occasion.&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;En cas de chelem réussi par le camp preneur ne possédant pas l\'excuse, cette carte jouée normalement reste la propriété de la défense et compte pour 4 points.&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;Tant qu\'une levée n\'a pas été ramassée, tout joueur peut consulter la levée précédente.&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;Un joueur ne doit jamais jouer avant son tour, ni même sortir une carte de son jeu avant que son tour ne soit arrivé. Il doit aussi jouer les cartes une par une.&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;Les levées réalisées doivent être ramassées par le camp qui remporte la levée (par le joueur situé en face du preneur pour les levées de la défense).&lt;/p&gt;
+        </string>
+
+    <string name="rules_calcul_score" translatable="false">&lt;p class=&quot;s11&quot; style=&quot;padding-top: 11pt;padding-left: 54pt;text-indent: 0pt;text-align: left;&quot;&gt;&lt;a name=&quot;bookmark12&quot;&gt;Le calcul des scores&lt;/a&gt;&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 2pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;A la fin de la partie, on compte les points contenus dans les levées du preneur d\'une part, et dans celles de la défense d\'autre part.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Pour gagner son contrat, le preneur doit réaliser un nombre de points minimum qui est fonction du nombre de bouts qu\'il possède dans ses levées à la fin de la partie (en cas de garde sans le chien, un éventuel bout au chien est acquis au preneur).
+            Si le nombre de points est exactement réalisé, le contrat est &quot;juste fait&quot;; si le nombre de points est supérieur, les points supplémentaires sont des points de gain; si le nombre de points est inférieur, le contrat est chuté et le
+            nombre de points manquants correspond à des points de perte.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Tout contrat valant arbitrairement 25 points, on rajoute 25 points au nombre de points de gain ou de perte.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 83pt;text-indent: 0pt;text-align: left;&quot;&gt;Ce nouveau total est assorti d\'un coefficient selon le contrat demandé :&lt;/p&gt;
+    &lt;/li&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;En cas de PRISE, ce total est inchangé,&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;En cas de GARDE, ce total est multiplié par DEUX,&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;En cas de GARDE SANS, ce total est multiplié par QUATRE,&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;En cas de GARDE CONTRE, ce total est multiplié par SIX.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 2pt;padding-left: 83pt;text-indent: 0pt;text-align: left;&quot;&gt;Enfin, les éventuelles primes de poignée, de petit au bout ou de chelem sont ajoutées.&lt;/p&gt;
+        </string>
+
+    <string name="rules_jeu_a_trois" translatable="false">&lt;p class=&quot;s11&quot; style=&quot;padding-top: 11pt;padding-left: 54pt;text-indent: 0pt;text-align: left;&quot;&gt;&lt;a name=&quot;bookmark18&quot;&gt;Le jeu à 3 joueurs&lt;/a&gt;&lt;/p&gt;
+                    &lt;p class=&quot;s12&quot; style=&quot;padding-top: 2pt;padding-left: 139pt;text-indent: -84pt;text-align: left;&quot;&gt;Préambule : &lt;span class=&quot;p&quot;&gt;Certains tournois en donnes libres dont le nombre de joueurs n’est pas multiple de 4 peuvent inclure des tables de 3 joueurs.&lt;/span&gt;&lt;/p&gt;
+                    &lt;p class=&quot;s12&quot; style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 0pt;text-align: left;&quot;&gt;Le jeu à 3 joueurs est admis et homologué par la F.F.T.&lt;/p&gt;
+                    &lt;p style=&quot;padding-top: 3pt;padding-left: 83pt;text-indent: 0pt;text-align: left;&quot;&gt;La règle est quasiment la même qu’à 4 joueurs. Les contrats sont identiques.&lt;/p&gt;
+                    &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Par contre, les cartes sont distribuées 4 par 4, (le chien étant toujours constitué de 6 cartes). Chaque joueur reçoit ainsi 24 cartes.&lt;/p&gt;
+                    &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;La simple poignée est composée de 13 atouts, la double poignée de 15 atouts et la triple poignée de 18 atouts.&lt;/p&gt;
+                    &lt;p style=&quot;padding-top: 9pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Lors du décompte, il faut compter au ½ point près. Si le nombre de points n’est pas entier, le ½ point va toujours au camp gagnant après que le camp possédant l’excuse ait donné normalement une carte :&lt;/p&gt;
+    &lt;/li&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;Si le preneur réalise 40 points ½ avec 2 bouts, le ½ point va à la défense. Il réalise donc 40 points et chute son contrat de UN point.&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;Si le preneur réalise 41 points ½ avec 2 bouts, le ½ point lui revient. Il réalise donc 42 points et passe son contrat de UN point.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Pour la marque, le calcul des points alloués aux défenseurs est le même qu’à quatre joueurs. Par contre, &lt;b&gt;les points du preneur sont multipliés par 2. &lt;/b&gt;Le total des trois scores (du preneur et de chacun des deux défenseurs) est donc égal
+            à &lt;span class=&quot;s17&quot;&gt;0.&lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot;text-indent: 0pt;text-align: left;&quot;&gt;&lt;br/&gt;&lt;/p&gt;
+        &lt;p class=&quot;s12&quot; style=&quot;padding-left: 58pt;text-indent: 0pt;text-align: left;&quot;&gt;DANS LE JEU A 3 JOUEURS, LE PRENEUR DOIT POSSEDER BEAUCOUP DE POINTS&lt;/p&gt;
+        </string>
+
+    <string name="rules_jeu_a_cinq" translatable="false">&lt;p class=&quot;s11&quot; style=&quot;padding-top: 11pt;padding-left: 54pt;text-indent: 0pt;text-align: left;&quot;&gt;&lt;a name=&quot;bookmark19&quot;&gt;Le jeu à 5 joueurs&lt;/a&gt;&lt;/p&gt;
+        &lt;p class=&quot;s12&quot; style=&quot;padding-top: 2pt;padding-left: 139pt;text-indent: -84pt;text-align: left;&quot;&gt;Préambule : &lt;span class=&quot;p&quot;&gt;Certains petits tournois libres dont le nombre de joueurs n’est pas multiple de 4 peuvent inclure des tables de 5 joueurs.&lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 0pt;text-align: justify;&quot;&gt;Dans ce cas, un des joueurs (le mort) procède à la distribution aux 4 autres joueurs et ne prend part à la partie en cours. Le mort ne compte pas dans les comptes de cette partie. Chaque joueur est « mort » à tour de rôle dans le sens du jeu,
+            et procède à la distribution tant que personne ne prend.&lt;/p&gt;
+        &lt;p class=&quot;s12&quot; style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 0pt;text-align: justify;&quot;&gt;Les tournois à 5 joueurs ne sont pas homologables. &lt;span class=&quot;p&quot;&gt;Un règlement FFT existe néanmoins.&lt;/span&gt;&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 83pt;text-indent: 0pt;text-align: left;&quot;&gt;La règle est légèrement différente du jeu à 4 joueurs.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Les cartes sont distribuées 3 par 3, et le chien est constitué de 3 cartes. Chaque joueur reçoit ainsi 15 cartes.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 83pt;text-indent: 0pt;text-align: left;&quot;&gt;Les contrats sont identiques.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Avant de retourner le chien, le preneur appelle un Roi de son choix. Lorsque le preneur a 4 Rois, il peut appeler une Dame (voire même un Cavalier s\'il a 4 Rois et 4 Dames ou un Valet s’il a 4 grands mariages). Si le preneur possède un jeu
+            exceptionnel il peut s’appeler lui-même en appelant un Roi faisant partie de son jeu.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Si la carte appelée est au chien ou si le preneur s’est appelé, alors le preneur joue seul contre les quatre autres joueurs (défenseurs). Sinon le détenteur de la carte appelée devient son partenaire (associé) et le jeu se joue à 2 (le preneur
+            et l’associé) contre 3.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;L’entame ne peut pas être faite dans la couleur de la carte appelée par le preneur sauf si cette entame est faite de la carte appelée.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Le partenaire du preneur ne doit pas faire état de son appartenance au camp attaquant jusqu\'à ce qu’il joue le Roi appelé même si son comportement de jeu laisse peu d’illusions aux adversaires : il peut donner des points au preneur ou son
+            petit.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;La simple poignée est composée de 8 atouts, la double poignée de 10 atouts et la triple poignée de 13 atouts.&lt;/p&gt;
+        &lt;p style=&quot;padding-top: 3pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Lors du décompte, il faut compter au ½ point près. Si le nombre de points n’est pas entier, le ½ point va toujours au camp gagnant après que le camp possédant l’excuse ait donné normalement une carte :&lt;/p&gt;
+    &lt;/li&gt;
+      &lt;li  &lt;p style=&quot;display: inline;&quot;&gt;Si le preneur réalise 40 points ½ avec 2 bouts, le ½ point va à la défense. Il réalise donc 40 points et chute son contrat de UN point.&lt;/p&gt;
+       &lt;li &lt;p style=&quot;display: inline;&quot;&gt;Si le preneur réalise 41 points ½ avec 2 bouts, le ½ point lui revient. Il réalise donc 42 points et passe son contrat de UN point.&lt;/p&gt;
+    &lt;/ul&gt;
+    &lt;p style=&quot;padding-top: 9pt;padding-left: 54pt;text-indent: 28pt;text-align: justify;&quot;&gt;Pour la marque, le calcul des points alloués aux défenseurs est le même qu’à quatre joueurs. Les points sont attribués, en + ou en – selon la réussite ou la chute, proportionnellement entre les deux attaquants (2/3 pour le preneur, 1/3 pour le partenaire).
+        Dans le cas où le preneur aurait joué à 1 contre 4, il encaisse la totalité des points en + ou en - selon sa réussite ou sa chute. Le total des cinq scores (du preneur, du Partenaire et de chacun des trois défenseurs) est donc égal à 0.&lt;/p&gt;
+            &lt;p style=&quot;display: inline;&quot;&gt;&lt;/p&gt;
+            &lt;p class=&quot;s12&quot; style=&quot;padding-top: 3pt;padding-left: 58pt;text-indent: 0pt;text-align: center;&quot;&gt;DANS LE JEU A 5 JOUEURS, LE PRENEUR DOIT POSSEDER BEAUCOUP D’ATOUTS. LES REPARTITIONS EXCENTREES PROMETTENT COUPES ET SURCOUPES EN DEFENSE&lt;/p&gt;
+            &lt;p style=&quot;text-indent: 0pt;text-align: left;&quot;&gt;&lt;br/&gt;&lt;/p&gt;
+            </string>
+    <string name="general_rules" translatable="false"> Ces règles sont issues du site de la Fédération Française du Tarot : http://fftarot.fr/ \n \n
+
+    Vous pouvez y naviguer à l\'aide du menu déroulant à gauche \n \n
+
+    Révison 1 du 1er juillet 2017</string>
+
+</resources>
