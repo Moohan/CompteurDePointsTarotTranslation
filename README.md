@@ -8,7 +8,7 @@
 
 ## How to help?
 
-Be free to perform PR, after a check your changes will be integrated into the application the next update
+Be free to perform PR, after a check your changes will be integrated into the application with the next update
 
 ## Contributors
 
