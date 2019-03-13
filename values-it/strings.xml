@@ -272,7 +272,7 @@
     <string-array name="features_list">
         <item name="1">URL</item>
         <item name="2">Versione</item>
-        <item name="3">L'aggiornamento è disponibile?</item>
+        <item name="3">L\'aggiornamento è disponibile?</item>
         <item name="4">download</item>
         <item name="5">Ultima data di pubblicazione</item>
         <item name="6">Requisiti del sistema operativo</item>
@@ -292,5 +292,7 @@
     </string-array>
 
     <string name="erreur_fonctionalite_non_disponnible">Si è verificato un errore Il tuo dispositivo non è attualmente compatibile con questa funzione.</string>
-    <string name="upload_crash_report">Invio del rapporto di arresto anomalo ...</string>
+    <string name="upload_crash_report">Invio del rapporto di arresto anomalo …</string>
+    <string name="activity_settings_translation">traduzione</string>
+    <string name="activity_settings_help_us_to_translate">Aiutaci a tradurre la tua lingua</string>
 </resources>

@@ -292,4 +292,6 @@
 
     <string name="erreur_fonctionalite_non_disponnible">Se ha producido un error. Su dispositivo no es actualmente compatible con esta función.</string>
     <string name="upload_crash_report">Enviando el informe de bloqueo …</string>
+    <string name="activity_settings_translation">traducción</string>
+    <string name="activity_settings_help_us_to_translate">Ayúdanos a traducir tu idioma</string>
 </resources>

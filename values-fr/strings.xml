@@ -266,6 +266,8 @@
     <string name="activity_settings_premium">Premium</string>
     <string name="activity_settings_premium_content">Permets la création illimitée de parties et la suppression des pubs</string>
     <string name="activity_settings_action_settings">Settings</string>
+	<string name="activity_settings_translation">Traduction</string>
+    <string name="activity_settings_help_us_to_translate">Aidez nous à la traduction de votre langue</string>
 
 
     <string name="licence" translatable="false">                                 Copyright 2017-2019 François Dexemple

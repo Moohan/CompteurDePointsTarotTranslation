@@ -293,4 +293,6 @@
 
     <string name="erreur_fonctionalite_non_disponnible">Um erro ocorreu. Seu dispositivo não é compatível com este recurso no momento.</string>
     <string name="upload_crash_report">Enviando o relatório de falha ...</string>
+    <string name="activity_settings_translation">tradução</string>
+    <string name="activity_settings_help_us_to_translate">Ajude-nos a traduzir seu idioma</string>
 </resources>

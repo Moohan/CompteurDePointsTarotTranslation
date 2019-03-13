@@ -32,13 +32,13 @@
 
     <string name="general_title_app">Tarot point counter</string>
     <string name="general_failed">Failure</string>
-    <string name="general_error">Fault</string>
+    <string name="general_error">Error</string>
     <string name="general_ok">OK</string>
     <string name="general_retrieving">Loading</string>
     <string name="general_loading">Loading ...</string>
-    <string name="general_players">players</string>
+    <string name="general_players">Players</string>
     <string name="general_games">Parties</string>
-    <string name="general_round">exercised</string>
+    <string name="general_round">Throwing</string>
     <string name="general_player1">Player 1</string>
     <string name="general_player2">Player 2</string>
     <string name="general_player3">Player 3</string>
@@ -46,33 +46,33 @@
     <string name="general_player5">Player 5</string>
     <string name="general_cancel">Cancel</string>
     <string name="general_yes">Yes</string>
-    <string name="general_no">Non</string>
+    <string name="general_no">No</string>
     <string name="general_no_thanks">No thanks</string>
     <string name="general_permission_garanted">Permission granted</string>
     <string name="general_permission_denied">Permission error refused</string>
-    <string name="general_contrats">contracts</string>
+    <string name="general_contrats">Contracts</string>
     <string name="general_bouts">Bouts</string>
     <string name="general_petit">Small</string>
     <string name="general_21">21</string>
     <string name="general_excuse">Excuse</string>
     <string name="general_points">Points</string>
     <string name="general_petite">Petite</string>
-    <string name="general_prise">taking</string>
-    <string name="general_garde">Garde</string>
+    <string name="general_prise">Taking</string>
+    <string name="general_garde">Guard</string>
     <string name="general_garde_contre">Guard against</string>
     <string name="general_garde_sans">Guard without</string>
-    <string name="general_preneur">taker</string>
-    <string name="general_win">Gagné</string>
+    <string name="general_preneur">Taker</string>
+    <string name="general_win">Win</string>
     <string name="general_loose">Lost</string>
-    <string name="general_continue">Carry on</string>
+    <string name="general_continue">Continue</string>
     <string name="general_delete">Remove</string>
-    <string name="general_warning">Attention</string>
+    <string name="general_warning">Be careful</string>
 
 
-    <string name="activity_main_new_game">New part</string>
-    <string name="activity_main_resume_game">Parties</string>
+    <string name="activity_main_new_game">New game</string>
+    <string name="activity_main_resume_game">Games</string>
     <string name="activity_main_about">About</string>
-    <string name="activity_main_players">players</string>
+    <string name="activity_main_players">Players</string>
     <string name="activity_main_rules">Rules</string>
     <string name="activity_main_settings">Settings</string>
     <string name="activity_main_please_wait">Please wait</string>
@@ -82,7 +82,7 @@
 
 
 
-    <string name="activity_create_game_title">Creating your part</string>
+    <string name="activity_create_game_title">Creating your game</string>
     <string name="activity_create_game_number_of_players">Number of players</string>
     <string name="activity_create_game_button_start_game">Start the game</string>
     <string name="activity_create_game_choose_number_player">Choose the number of players</string>
@@ -91,13 +91,13 @@
     <string name="activity_create_game_missing_names">missing player names</string>
     <string name="activity_create_game_fill_name_player">Please fill in the name of the player</string>
     <string name="activity_create_game_fill_names_players">Please fill in the names of the players</string>
-    <string name="activity_create_game_game_of">Part of</string>
+    <string name="activity_create_game_game_of">Game of</string>
     <string name="activity_create_game_why_pub">Why the PUB?</string>
     <string name="activity_create_game_why_pub_content">Publish an application on the PlayStore is not free. Having ad in our application allows us to amortize the costs of publishing the application. You can also help us by buying the premium version in the settings. \ n \ nGood part;)</string>
     <string name="activity_create_game_error_players_same_name">Error players have the same name</string>
     <string name="activity_create_game_player_cant_have_same_name">Players can not have the same name</string>
     <string name="activity_create_game_error_adblock">Video uploads error, please disable your ad blocker</string>
-    <string name="activity_create_game_we_are_creating_your_game">We create your part</string>
+    <string name="activity_create_game_we_are_creating_your_game">We create your game</string>
     <string name="activity_create_game_start_game">Start the game</string>
 
 
@@ -108,16 +108,16 @@
     <string name="payment_module_you_have_already_that">You already own this article</string>
     <string name="payment_module_thanks">Thank you for your purchase !</string>
     <string name="payment_module_billing_not_initialized">Billing not initialized.</string>
-    <string name="payment_module_restored">restored</string>
-    <string name="payment_module_not_possible">Impossible !</string>
+    <string name="payment_module_restored">Restored</string>
+    <string name="payment_module_not_possible">Not possible !</string>
     <string name="payment_module_the_limit_is">The limit for the free version is</string>
-    <string name="payment_module_need_premium">. Please purchase the premium version or delete parts.</string>
+    <string name="payment_module_need_premium">. Please purchase the premium version or delete games.</string>
     <string name="payment_module_buy">Buy</string>
 
 
-    <string name="tutorial_create_game">Let\'s create our first part. Click on this button.</string>
-    <string name="tutorial_too_much_game">Please remove some parts before retaking the tutorial</string>
-    <string name="tutorial_clic_for_add_levee">Click this button to add a lift</string>
+    <string name="tutorial_create_game">Let\'s create our first game. Click on this button.</string>
+    <string name="tutorial_too_much_game">Please remove some game before restarting the tutorial</string>
+    <string name="tutorial_clic_for_add_levee">Click this button to add a throwing</string>
     <string name="tutorial_for_delete_swipe">To delete, swipe right or left.</string>
     <string name="tutorial_you_need_to_clic">Once the fields are filled, validate by pressing this button or the symbol at the top right.</string>
 
@@ -143,22 +143,22 @@
     <string name="activity_score_fields_player">Player\'s fields</string>
     <string name="activity_score_empty_put_zero"> is empty ! Do you want to set this field to 0?</string>
     <string name="activity_score_create">created</string>
-    <string name="activity_score_device">Apparatus</string>
+    <string name="activity_score_device">Device</string>
     <string name="activity_score_choose">To choose</string>
     <string name="activity_score_choose_folder_excel">Choose the folder where to export the part in EXCEL format</string>
     <string name="activity_score_not_possible_already_here">Impossible, this player is already present in the game</string>
     <string name="activity_score_has_been_added">has been added to the game</string>
-    <string name="activity_score_not_possible_need_three_player">Impossible it takes a minimum of 3 players</string>
+    <string name="activity_score_not_possible_need_three_player">Impossible you need a minimum of 3 players</string>
     <string name="activity_score_choose_player_to_remove">Choose the player to remove</string>
     <string name="activity_score_be_careful_not_come_back">Attention this is definitive</string>
     <string name="activity_score_player_deleted_of_the_game">The player has been removed from the game</string>
     <string name="activity_score_no_data">No data available</string>
     <string name="activity_score_validate">Validate</string>
-    <string name="activity_score_modify">Modifier</string>
-    <string name="activity_score_add_dead">Add a dead person</string>
+    <string name="activity_score_modify">Modify</string>
+    <string name="activity_score_add_dead">Add a dead player</string>
     <string name="activity_score_remove_dead">Remove a player</string>
     <string name="activity_score_play_with_dead_more">Play with one more death</string>
-    <string name="activity_score_play_with_dead_less">Playing with a dead person</string>
+    <string name="activity_score_play_with_dead_less">Play with a dead of less</string>
 
 
 
@@ -171,7 +171,7 @@
     <string name="activity_about_update_notes">Release Notes</string>
     <string name="activity_about_get_last_data">Retrieving the latest data</string>
     <string name="activity_about_error_get_last_data">Error in displaying update notes</string>
-    <string name="activity_about_authors">authors</string>
+    <string name="activity_about_authors">Authors</string>
     <string name="activity_about_creator_and_maintenor">Creator and maintainer - France</string>
     <string name="activity_about_creator_of_icon">Creator of the icon - France</string>
     <string name="activity_about_developpement_support">Development Support</string>
@@ -199,7 +199,7 @@
     <string name="activity_nouvelle_donne_action">Action</string>
     <string name="activity_nouvelle_donne_select_player_called">Select the called player</string>
     <string name="activity_nouvelle_donne_select_contrat_called">Select the advertised contract</string>
-    <string name="activity_nouvelle_donne_att">To:</string>
+    <string name="activity_nouvelle_donne_att">Att:</string>
     <string name="activity_nouvelle_donne_def">Def:</string>
     <string name="activity_nouvelle_donne_signe_moins">-</string>
     <string name="activity_nouvelle_donne_signe_plus"> </string>
@@ -258,7 +258,7 @@
     <string name="activity_settings_size_max_for_name">Maximum size of player names</string>
     <string name="activity_settings_size_max_for_name_content">Attention, if the players have big names, the last ones can disappear from the screen</string>
     <string name="activity_settings_new_value">New value</string>
-    <string name="activity_settings_game">Thu</string>
+    <string name="activity_settings_game">Game</string>
     <string name="activity_settings_personalize_points">Customize points</string>
     <string name="activity_settings_authorize_misere">Allow misery</string>
     <string name="activity_settings_misere_activate">Misery activated</string>
@@ -293,4 +293,6 @@
 
     <string name="erreur_fonctionalite_non_disponnible">An error has occurred. Your device is not currently compatible with this feature.</string>
     <string name="upload_crash_report">Sending the crash report ...</string>
+    <string name="activity_settings_translation">Translation</string>
+    <string name="activity_settings_help_us_to_translate">Help us to translate your language</string>
 </resources>
